@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+/*import logo from './logo.svg';
+import './App.css';*/
+import React from 'react';
+import WishPage from './pages/WishPage';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,10 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
+
+const App = () => {
+  return <WishPage />;
+};
 
 export default App;

@@ -1,0 +1,8 @@
+div {
+  vertical-align: top;
+}
+
+td {
+  border-bottom: 1px solid gray;
+  padding: 1em;
+}
